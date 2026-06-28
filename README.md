@@ -8,11 +8,15 @@
   git clone git@github.com:ayushkpai/countdown-calander.git
   ```
 
-- Next install python
+- Next install python and add dependencies
 
   Also documented in dotfiles
 
-  Create a events.txt file
+  ```
+  uv add python-dotenv
+  ```  
+
+- Create a events.txt file
 
   ```
   touch events.txt
@@ -20,7 +24,7 @@
   echo <what pwd returned/events.txt> >> .env
   ```
 
-  In events.txt write like
+- In events.txt write like
 
   `<event>,<date>`
 
