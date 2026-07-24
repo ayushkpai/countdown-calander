@@ -1,10 +1,7 @@
 from tkinter import Tk, Canvas
 from datetime import date, datetime
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
-EVENTS_FILE = os.getenv("EVENTS_FILE")
+EVENTS_FILE = "events.txt"
 
 def get_events():
     events = []
